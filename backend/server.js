@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
   res.json(result);
 });
 
+
 app.post("/", (req, res) => {
   const { species } = req.body;
   const date = new Date();
